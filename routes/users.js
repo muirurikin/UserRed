@@ -5,7 +5,7 @@ router.get('/', (req, res) => {
   res.send('Hello Users');
 });
 
-router.postt('/', (req, res) => {
+router.post('/', (req, res) => {
   res.send('User Added');
 });
 
