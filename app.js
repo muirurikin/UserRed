@@ -6,6 +6,8 @@ const redis = require('redis');
 
 const app = express();
 
+const routes = require('./routes');
+
 app.set('view engine', 'handlebars');
 
 app.use(bodyParser.urlencoded({ extended: false }));
